@@ -1,0 +1,36 @@
+# Environments / secrets
+thesis-venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large local data (keep on disk / Drive; rebuild with each stage's code)
+*/data/
+experiments/output/
+experiments/models/srilm/
+experiments/models/inference/*.joblib
+
+# macOS
+.DS_Store
+
+# Editor settings (absolute local paths)
+.vscode/
+
+# Personal / admin documents and third-party PDFs (kept locally, not in the repo)
+/*.pdf
+paper/*.pdf
+thesis/Annexure-I_*.pdf
+thesis/M25AI2078_MTP2*.pdf
+thesis/MtechThesis*.pdf
+
+# Thesis drafting leftovers: AI-rewrite notes, backups, LaTeX logs
+thesis/ai-rewrite-form*.md
+thesis/.ai-rewrite-map*.json
+thesis/.ai-insert.py
+thesis/main.before-*
+thesis/*.log
+thesis/*.aux
+thesis/*.out
+thesis/*.toc

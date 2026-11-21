@@ -1,0 +1,20 @@
+# data-collection
+requests
+beautifulsoup4
+python-dotenv
+
+# data-preprocessing
+nltk
+
+# experiments
+spacy
+transformers
+torch
+lexicalrichness
+pandas
+numpy
+matplotlib
+scikit-learn
+
+# After install:
+#   python -m spacy download en_core_web_sm
